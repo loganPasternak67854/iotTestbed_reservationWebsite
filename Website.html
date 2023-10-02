@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Robotic IoT Testbed</title>
+</head>
+<body>
+    <section class="centered">
+        <h1>Robotic IoT Testbed</h1>
+    </section>
+</body>
+</html>
+
+<!--description-->
+<section>
+  <section class="centered">
+<p> The Robotic IoT Testbed is avalible in two-hour intervals. In order to reserve a spot you need to send a link of your code using the box below. If selected your data results will be sent via email after the code has been run</p>
+</section>
+<!--List of time avalible-->
+<section>
+    <h2> Avalibility Hours</h2>
+</section>
+<ul>
+    <li>
+        <a herf="Monday: 2-4pm, 4-6pm, 6-8pm">Monday: 2-4pm, 4-6pm, 6-8pm</a>
+    </li>
+    <li>
+    <a herf="Tuesday: 2-4pm, 4-6pm, 6-8pm">Tuesday: 2-4pm, 4-6pm, 6-8pm</a>
+    </li>
+    <li>
+    <a herf="Wednesday: 2-4pm, 4-6pm, 6-8pm">Wednesday: 2-4pm, 4-6pm, 6-8pm</a>
+    </li>
+    <li>
+    <a herf="Thursday: 2-4pm, 4-6pm, 6-8pm">Thursday: 2-4pm, 4-6pm, 6-8pm</a>
+    </li>
+    <li>
+    <a herf="Friday: 2-4pm, 4-6pm, 6-8pm">Friday: 2-4pm, 4-6pm, 6-8pm</a>
+    </li>
+    <li>
+    <a herf="Saturday: Closed">Saturday: Closed</a>
+    </li>
+    <li>
+    <a herf="Sunday: Closed">Sunday: Closed</a>
+    </li>
+    </ul>
+
+<!--Avalibility of spot-->
+<section>
+<h2>Check Avalibility:</h2>
+</section>
+<!--Calendar-->
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="evo-calendar.min.css">
+    <link rel="stylesheet" href="evo-calendar.midnight-blue.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<div class="hero">
+    <div id="calendar"></div>   
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="evo-calendar.min.js"></script>
+<script>
+    $(document).ready(function() {
+    $('#calendar').evoCalendar({
+        
+        theme:"Midnight Blue",
+        calendarEvents: [
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Possible Avalibility", // Event name (required)
+        badge: "08/01-08/05", // Event date (required)
+        date:["August/1/2023","August/4/2023" ],
+        description: "2-4pm, 4-6pm, 6-8pm",
+        type: "event", // Event type (required)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Possible Avalibility", // Event name (required)
+        badge: "08/07-08/11", // Event date (required)
+        date:["August/7/2023","August/11/2023" ],
+        description: "2-4pm, 4-6pm, 6-8pm",
+        type: "event", // Event type (required)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Possible Avalibility", // Event name (required)
+        badge: "08/14-08/18", // Event date (required)
+        date:["August/14/2023","August/18/2023" ],
+        description: "2-4pm, 4-6pm, 6-8pm",
+        type: "event", // Event type (required)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Possible Avalibility", // Event name (required)
+        badge: "08/21-08/25", // Event date (required)
+        date:["August/21/2023","August/25/2023" ],
+        description: "2-4pm, 4-6pm, 6-8pm",
+        type: "event", // Event type (required)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Possible Avalibility", // Event name (required)
+        badge: "08/28-09/01", // Event date (required)
+        date:["August/28/2023","September/1/2023" ],
+        description: "2-4pm, 4-6pm, 6-8pm",
+        type: "event", // Event type (required)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Possible Avalibility", // Event name (required)
+        badge: "09/04-09/08", // Event date (required)
+        date:["September/4/2023","September/8/2023" ],
+        description: "2-4pm, 4-6pm, 6-8pm",
+        type: "event", // Event type (required)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Possible Avalibility", // Event name (required)
+        badge: "09/11-09/15", // Event date (required)
+        date:["September/11/2023","September/15/2023" ],
+        description: "2-4pm, 4-6pm, 6-8pm",
+        type: "event", // Event type (required)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Possible Avalibility", // Event name (required)
+        badge: "09/18-09/22", // Event date (required)
+        date:["September/18/2023","September/22/2023" ],
+        description: "2-4pm, 4-6pm, 6-8pm",
+        type: "event", // Event type (required)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Possible Avalibility", // Event name (required)
+        badge: "09/25-09/29", // Event date (required)
+        date:["September/25/2023","September/29/2023" ],
+        description: "2-4pm, 4-6pm, 6-8pm",
+        type: "event", // Event type (required)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Possible Avalibility", // Event name (required)
+        badge: "10/02-10/06", // Event date (required)
+        date:["October/2/2023","October/6/2023" ],
+        description: "2-4pm, 4-6pm, 6-8pm",
+        type: "event", // Event type (required)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Possible Avalibility", // Event name (required)
+        badge: "10/09-10/13", // Event date (required)
+        date:["October/9/2023","October/13/2023" ],
+        description: "2-4pm, 4-6pm, 6-8pm",
+        type: "event", // Event type (required)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Possible Avalibility", // Event name (required)
+        badge: "10/16-10/20", // Event date (required)
+        date:["October/16/2023","October/20/2023" ],
+        description: "2-4pm, 4-6pm, 6-8pm",
+        type: "event", // Event type (required)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Possible Avalibility", // Event name (required)
+        badge: "10/23-10/27", // Event date (required)
+        date:["October/23/2023","October/27/2023" ],
+        description: "2-4pm, 4-6pm, 6-8pm",
+        type: "event", // Event type (required)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Possible Avalibility", // Event name (required)
+        badge: "10/30-11/03", // Event date (required)
+        date:["October/30/2023","November/3/2023" ],
+        description: "2-4pm, 4-6pm, 6-8pm",
+        type: "event", // Event type (required)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Possible Avalibility", // Event name (required)
+        badge: "11/6-11/10", // Event date (required)
+        date:["November/6/2023","November/10/2023" ],
+        description: "2-4pm, 4-6pm, 6-8pm",
+        type: "event", // Event type (required)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Possible Avalibility", // Event name (required)
+        badge: "11/13-11/17", // Event date (required)
+        date:["November/13/2023","November/17/2023" ],
+        description: "2-4pm, 4-6pm, 6-8pm",
+        type: "event", // Event type (required)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Possible Avalibility", // Event name (required)
+        badge: "11/20-11/24", // Event date (required)
+        date:["November/20/2023","November/24/2023" ],
+        description: "2-4pm, 4-6pm, 6-8pm",
+        type: "event", // Event type (required)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Possible Avalibility", // Event name (required)
+        badge: "11/27-12/01", // Event date (required)
+        date:["November/27/2023","December/01/2023" ],
+        description: "2-4pm, 4-6pm, 6-8pm",
+        type: "event", // Event type (required)
+      }, 
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Possible Avalibility", // Event name (required)
+        badge: "12/4-12/8", // Event date (required)
+        date:["December/4/2023","December/8/2023" ],
+        description: "2-4pm, 4-6pm, 6-8pm",
+        type: "event", // Event type (required)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Possible Avalibility", // Event name (required)
+        badge: "12/11-12/15", // Event date (required)
+        date:["December/11/2023","December/15/2023" ],
+        description: "2-4pm, 4-6pm, 6-8pm",
+        type: "event", // Event type (required)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Possible Avalibility", // Event name (required)
+        badge: "12/18-12/22", // Event date (required)
+        date:["December/18/2023","December/22/2023" ],
+        description: "2-4pm, 4-6pm, 6-8pm",
+        type: "event", // Event type (required)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Possible Avalibility", // Event name (required)
+        badge: "12/25-12/29", // Event date (required)
+        date:["December/25/2023","December/29/2023" ],
+        description: "2-4pm, 4-6pm, 6-8pm",
+        type: "event", // Event type (required)
+      },
+    ]
+
+    });
+})
+</script>
+<!--Button to Submit-->
+
+<style>
+    button {
+        padding: 10px 20px;
+        background: rgb(255, 255, 255);
+    }
+</style>
+
+<!--EMAIL SENDER-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Appointment Form</title>
+</head>
+<body>
+    <h2>Appointment Form</h2>
+    <form method="POST" action="http://localhost:8000/send_email.php" enctype="multipart/form-data">
+      <form method="POST" action="http://localhost:8080/appointments">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="date">Appointment Date:</label>
+        <input type="date" id="date" name="date" required><br>
+
+        <label for="time">Appointment Time:</label>
+        <select id="time" name="time" required>
+            <option value="2:00-4:00 PM">2:00-4:00 PM</option>
+            <option value="4:00-6:00 PM">4:00-6:00 PM</option>
+            <option value="6:00-8:00 PM">6:00-8:00 PM</option>
+            <!-- Add more time options here -->
+    
+        </select><br>
+        <label for="file">Python File:</label>
+        <input type="file" id="file" name="file" accept=".py" required><br>
+        
+        <button type="submit" name="submit">Submit</button>
+        
+    </form>
+</body>
+</html>
+<!--Grid of Winlab-->
+<figure>
+<html>
+<head>
+  <title>Coordinate Grid Example</title>
+  <style>
+    canvas {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="coordinateGrid" width="400" height="400"></canvas>
+
+  <script>
+    // Get the canvas element
+    var canvas = document.getElementById('coordinateGrid');
+    var ctx = canvas.getContext('2d');
+
+    // Define the grid properties
+    var gridColor = '#ccc';
+    var gridSpacing = 40;
+
+    // Draw the coordinate grid
+    function drawGrid() {
+      // Clear the canvas
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Draw vertical grid lines
+      for (var x = 0; x < canvas.width; x += gridSpacing) {
+        ctx.beginPath();
+        ctx.moveTo(x, 0);
+        ctx.lineTo(x, canvas.height);
+        ctx.strokeStyle = gridColor;
+        ctx.stroke();
+      }
+
+      // Draw horizontal grid lines
+      for (var y = 0; y < canvas.height; y += gridSpacing) {
+        ctx.beginPath();
+        ctx.moveTo(0, y); 
+        ctx.lineTo(canvas.width, y);
+        ctx.strokeStyle = gridColor;
+        ctx.stroke();
+      }
+    }
+
+    // Function to add a point to the grid
+    function addPoint(x, y, color) {
+      ctx.beginPath();
+      ctx.arc(x, y, 3, 0, 2 * Math.PI);
+      ctx.fillStyle = color;
+      ctx.fill();
+    }
+
+    // Draw the initial grid
+    drawGrid();
+
+    // Example: Add points to the grid
+    addPoint(80, 120, 'red');
+    addPoint(200, 240, 'yellow');
+    addPoint(320, 80, 'green');
+  </script>
+</body>
+</html> 
+</figure>
+
+  <!--Color piece next to word-->
+  <style>
+    .red-color-piece {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: red;
+      margin-right: 10px;
+    }
+    
+    .yellow-color-piece {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: yellow;
+      margin-right: 10px;
+    }
+    
+    .green-color-piece {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: green;
+      margin-right: 10px;
+    }
+  </style>
+
+  <section>
+  <span>
+    <span class="red-color-piece"></span> Red = Hasn't been activated in an hour or more
+  </span>
+</section>
+
+<section>
+  <span>
+    <span class="yellow-color-piece"></span> Yellow = Hasn't been activated in 30 minutes
+  </span>
+</section>
+
+<section>
+  <span>
+    <span class="green-color-piece"></span> Green = Has been activated in the last 5 minutes
+  </span>
+</section>
+
+
