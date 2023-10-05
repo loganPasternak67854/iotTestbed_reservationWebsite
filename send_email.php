@@ -23,7 +23,7 @@ if (isset($_POST["submit"])) {
     $body .= "Script Content:\n\n$file_content";
 
     // Set up email parameters
-    $to = "leonardorubio2006@gmail.com"; // Replace with the recipient's email address
+    $to = "lp586@scarletmail.rutgers.edu"; // Replace with the recipient's email address
     $subject = "Appointment Request";
     $headers = "From: $email";
 
