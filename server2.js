@@ -21,6 +21,16 @@ this kind of content.
 app.use(express.static(path.join(__dirname)));
 
 // Serve the "Testbed Website.html" file
+/*
+
+app.get(path, callback) <Binds middleware to application>
+
+path:It is the path for which the middleware function is being called
+
+callback:They can be a middleware function or a series/array of middleware
+functions.
+
+*/
 app.get('/', (req, res) => {
   
 });
